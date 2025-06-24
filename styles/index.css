@@ -1,11 +1,14 @@
-@import './base.css';
+@import "./base.css";
 
-/* @font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter_18pt-Regular.ttf);
+.main {
+  padding: 150px;
 }
 
-@font-face {
-  font-family: InterBold;
-  src: url(../fonts/Inter_18pt-Bold.ttf);
-} */
+.main__heading {
+  font-size: 128px;
+  font-weight: bold;
+}
+
+.main__sub-heading {
+  font-size: 40px;
+}
